@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IES Dr. Fleming - Ciclo DAW</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logotipo del IES Dr. Fleming"
+             width="150" loading="lazy">
+        <h1>IES Dr. Fleming</h1>
+        <h2>Ciclo Formativo de Desarrollo de Aplicaciones Web</h2>
+        <nav>
+            <h2>Menú de navegación</h2>
+            <ul>
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#modulos">Módulos formativos</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="#inscripcion">Inscripción</a></li>
+                <li><a href="https://www.w3schools.com/">Página oficial del W3C</a></li>
+                <li><a href="mailto:liasofp@gmail.com?subject=Consulta%20sobre%20DAW">Contactar por correo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion">
+            <h2>Bienvenidos al IES Dr. Fleming</h2>
+            <article>
+                <h3>¿Qué es el ciclo de DAW?</h3>
+                <p>
+                    El Ciclo Formativo de Grado Superior en Desarrollo de
+                    Aplicaciones Web prepara al alumnado para diseñar,
+                    desarrollar y mantener páginas y aplicaciones web.
+                    Se trabajan interfaces, programación, bases de datos
+                    y servidores, aplicando criterios de seguridad,
+                    accesibilidad y usabilidad.
+                </p>
+                <img src="logo.png" alt="Imagen promocional del instituto"
+                     width="300" loading="lazy">
+            </article>
+        </section>
+
+        <section id="modulos">
+            <h2>Módulos formativos</h2>
+            <ol>
+                <li>MOC
+                    <ul><li>Requisitos académicos de acceso a grado superior.</li></ul>
+                </li>
+                <li>DIW
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+                <li>DWES
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+                <li>DWEC
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+                <li>PIDW2
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+                <li>IPEI2
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+                <li>DAW
+                    <ul><li>Cumplir las condiciones de admisión.</li></ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="horarios">
+            <h2>Horario semanal de DAW</h2>
+            <table border="1">
+                <caption>Horario orientativo del ciclo de DAW</caption>
+                <thead>
+                    <tr><th colspan="6">IES Dr. Fleming - DAW</th></tr>
+                    <tr>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Lunes</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Miércoles</th>
+                        <th scope="col">Jueves</th>
+                        <th scope="col">Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">08:15-09:10</th>
+                        <td rowspan="2">MOC</td>
+                        <td rowspan="2">DIW</td>
+                        <td rowspan="2">DWES</td>
+                        <td rowspan="2">DWEC</td>
+                        <td rowspan="2">IPEI2</td>
+                    </tr>
+                    <tr><th scope="row">09:10-10:05</th></tr>
+                    <tr>
+                        <th scope="row">10:05-11:00</th>
+                        <td rowspan="2">DWEC</td>
+                        <td rowspan="2">DWES</td>
+                        <td rowspan="2">DIW</td>
+                        <td rowspan="2">PIDW2</td>
+                        <td rowspan="2">DAW</td>
+                    </tr>
+                    <tr><th scope="row">11:00-11:30</th></tr>
+                    <tr>
+                        <th scope="row">11:30-12:25</th>
+                        <td rowspan="2">DWES</td>
+                        <td rowspan="2">MOC</td>
+                        <td rowspan="2">PIDW2</td>
+                        <td rowspan="2">DAW</td>
+                        <td rowspan="2">DIW</td>
+                    </tr>
+                    <tr><th scope="row">12:25-13:20</th></tr>
+                    <tr>
+                        <th scope="row">13:20-14:15</th>
+                        <td>DAW</td><td>IPEI2</td><td>DWEC</td>
+                        <td>DWES</td><td>PIDW2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Horario orientativo; sustituir por el horario real del grupo.</p>
+        </section>
+
+        <section id="inscripcion">
+            <h2>Formulario de inscripción</h2>
+            <form action="mailto:liasofp@gmail.com" method="post"
+                  enctype="text/plain">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+                    <p>Turno preferido:</p>
+                    <input type="radio" id="manana" name="turno"
+                           value="manana" required>
+                    <label for="manana">Mañana</label>
+                    <input type="radio" id="tarde" name="turno" value="tarde">
+                    <label for="tarde">Tarde</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias de matrícula</legend>
+                    <p>Servicios de interés:</p>
+                    <input type="checkbox" id="tutoria" name="tutoria" value="si">
+                    <label for="tutoria">Tutorías</label>
+                    <input type="checkbox" id="orientacion" name="orientacion"
+                           value="si">
+                    <label for="orientacion">Orientación académica</label>
+                    <p>
+                        <label for="curso">Curso académico:</label>
+                        <select id="curso" name="curso" required>
+                            <option value="">Selecciona un curso</option>
+                            <option value="primero">Primero de DAW</option>
+                            <option value="segundo">Segundo de DAW</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="plazas">Plazas ocupadas:</label>
+                        <meter id="plazas" min="0" max="30" low="10"
+                               high="24" optimum="0" value="18">18 de 30</meter>
+                        18 de 30 plazas ocupadas
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit">Enviar inscripción</button>
+                    <button type="reset">Borrar formulario</button>
+                </p>
+            </form>
+        </section>
+
+        <aside>
+            <h2>Información adicional</h2>
+            <p>Consulta los estándares web en la página del
+                <a href="https://www.w3schools.com/">W3C</a>.
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 IES Dr. Fleming. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
